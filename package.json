@@ -1,0 +1,38 @@
+{
+  "name": "jiuyu-monitor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint",
+    "spellcheck": "cspell lint --dot --gitignore --color --cache --show-suggestions \"(packages|apps)/**/*.@(html|js|cjs|mjs|ts|tsx|css|scss|md)\"",
+    "typecheck": "tsc --noEmit",
+    "commit": "git-cz",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
+  },
+  "devDependencies": {
+    "eslint": "9.15.0",
+    "@eslint/js": "9.15.0",
+    "globals": "15.12.0",
+    "typescript": "5.5.3",
+    "typescript-eslint": "8.15.0",
+    "eslint-plugin-react-hooks": "5.0.0",
+    "eslint-plugin-react-refresh": "0.4.14",
+    "eslint-plugin-prettier": "5.2.1",
+    "eslint-plugin-simple-import-sort": "12.1.1",
+    "cspell": "8.14.4",
+    "@commitlint/cli": "19.6.0",
+    "@commitlint/config-conventional": "19.6.0",
+    "commitizen": "4.3.1",
+    "cz-git": "1.10.1",
+    "husky": "9.1.7"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

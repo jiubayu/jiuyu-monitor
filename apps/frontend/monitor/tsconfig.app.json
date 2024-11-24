@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "useDefineForClassFields": true, // Emit ECMAScript-standard-compliant class fields
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true, // Allow imports to include TypeScript file extensions. Requires '--moduleResolution bundler'
+    "isolatedModules": true, // ensure that each file can be safely transpiled without relying on other imports.
+    "moduleDetection": "force", // Specify how TypeScript determine a file as module
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true, // Enable error reporting when a local variable isn't read.
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src"]
+}
